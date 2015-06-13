@@ -1,0 +1,117 @@
+body {
+    background-color: ##F1FFF6;
+}
+
+.header_logo {
+    margin: 10px 0 0 20px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.header_title {
+    text-align: right;
+    margin-right: 40px;
+}
+
+hr {
+    height: 2px;
+    background-color: #32382c;
+    color: #32382c;
+    margin: 15px 15px 15px 15px;
+    border: none;
+}
+
+.a_pic {
+    margin: 15px 10px 10px 5px;
+    width: 100%;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.proj_pics {
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 10px;
+    max-height: 700px;
+}
+
+.project_pic {
+    max-height: 250px;
+    max-width: 450px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.portfolio_pic {
+    max-height: 800px;
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.pict_col {
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.sect_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col1_align {
+    padding-left: 10px;
+}
+
+.col2_align {
+    padding-left: 60px;
+}
+
+h1 {
+    font: 2em cursive 'Helvetica, Arial, sans-serif';
+    color: #235d23;
+    word-wrap: break-word;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font: 1.5em 'Helvetica, Arial, sans-serif';
+    color: #235d23;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font: 'Helvetica, Arial, sans-serif';
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #CCC;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    clear: both;
+}
+
+h4 {
+    font: 1.25em 'Helvetica, Arial, sans-serif';
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #000;
+    word-wrap: break-word;
+}
+
+h5 {
+    font-size: 1em;
+    color: #000;
+    text-align: left;
+    font-weight: 500;
+    word-wrap: break-word;
+}
