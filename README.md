@@ -1,3 +1,3 @@
 # project1
-I use twitters bootstrap; I changed the lay out of the images; two of them horizontally and one vertical;
-I also tried this project without bootstrap; It took a lot of time;
+I use twitters bootstrap to create udacity frontend nanodegree project 1; I changed the lay out of the images; two of them in rows and one column;
+I also tried this project without bootstrap using just flexbox; It took a lot of time;
