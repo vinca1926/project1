@@ -1,5 +1,5 @@
 body {
-    background-color: ##F1FFF6;
+    background-color: #F1FFF6;
 }
 
 .header_logo {
@@ -17,8 +17,7 @@ hr {
     height: 2px;
     background-color: #32382c;
     color: #32382c;
-    margin: 15px 15px 15px 15px;
-    border: none;
+    margin: 15px ;
 }
 
 .a_pic {
@@ -63,6 +62,8 @@ hr {
 }
 
 .col1_align {
+    display: flex;
+    flex-direction: column;
     padding-left: 10px;
 }
 
@@ -71,47 +72,38 @@ hr {
 }
 
 h1 {
-    font: 2em cursive 'Helvetica, Arial, sans-serif';
+    font: 2em cursive Helvetica, Arial, sans-serif;
     color: #235d23;
     word-wrap: break-word;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin: 5px ,auto,10px;
 }
 
 h2 {
-    font: 1.5em 'Helvetica, Arial, sans-serif';
-    color: #235d23;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    font: #235d23,1.5em Helvetica, Arial, sans-serif;
+    margin: 5px,auto,10px;
 }
 
 h3 {
-    font: 'Helvetica, Arial, sans-serif';
+    font: 24px,#000,Helvetica, Arial, sans-serif;
+    font-weight: 700;
     text-align: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    text-transform: uppercase;
+    margin: 30px,auto,30px;
     padding-top: 30px;
     border-top: 1px solid #CCC;
-    color: #000;
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
     clear: both;
 }
 
 h4 {
-    font: 1.25em 'Helvetica, Arial, sans-serif';
+    font: 1.25em,#000, Helvetica, Arial, sans-serif;
+    font-weight: 700;
     text-align: left;
     margin-top: 20px;
-    font-weight: 500;
-    color: #000;
     word-wrap: break-word;
 }
 
 h5 {
-    font-size: 1em;
-    color: #000;
+    font: 1em,500,#000;
     text-align: left;
-    font-weight: 500;
     word-wrap: break-word;
 }
