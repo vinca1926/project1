@@ -1,5 +1,5 @@
 body {
-    background-color: #F1FFF6;
+    background-color: #f1fff6;
 }
 
 .header_logo {
@@ -62,8 +62,6 @@ hr {
 }
 
 .col1_align {
-    display: flex;
-    flex-direction: column;
     padding-left: 10px;
 }
 
@@ -72,19 +70,19 @@ hr {
 }
 
 h1 {
-    font: 2em cursive Helvetica, Arial, sans-serif;
+    font: 2em cursive helvetica, arial, sans-serif;
     color: #235d23;
     word-wrap: break-word;
     margin: 5px ,auto,10px;
 }
 
 h2 {
-    font: #235d23,1.5em Helvetica, Arial, sans-serif;
+    font: #235d23,1.5em helvetica, arial, sans-serif;
     margin: 5px,auto,10px;
 }
 
 h3 {
-    font: 24px,#000,Helvetica, Arial, sans-serif;
+    font: 24px,#000,helvetica, arial, sans-serif;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -95,7 +93,7 @@ h3 {
 }
 
 h4 {
-    font: 1.25em,#000, Helvetica, Arial, sans-serif;
+    font: 1.25em,#000, helvetica, arial, sans-serif;
     font-weight: 700;
     text-align: left;
     margin-top: 20px;

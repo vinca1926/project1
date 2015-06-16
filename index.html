@@ -25,34 +25,37 @@
                 <hr>
             </div>
         </div>
-        <figure class="row a_pic col-xs-12">
-            <img class="img-responsive" src="img/IMG_museum.jpg" alt="why picture?">
+        <figure class="row">
+            <div class="a_pic col-xs-12">
+                <img class="img-responsive" src="img/IMG_museum.jpg" alt="why picture?">
+            </div>
         </figure>
-        <div class="row sect_title col-xs-12">
-            <h3>Featured Work</h3>
+        <div class="row">
+            <h3 class="sect_title col-xs-12">Featured Work</h3>
         </div>
-// I did not want all three of my images to be in a single row; I wanted two of them one below the other
-// and the third one just by itself;
+        <!-- I did not want all three of my images to be in a single row; I wanted two of them one below the other and the third one just by itself; -->
         <section class="row project_pics">
-            <div class="col-xs-6  pict_col">
-                <div class="col1_align">
-                    <img class="img-responsive project_pic" src="img/IMG_tree.jpg" alt="Project Pic">
-                    <h4>Fun projects</h4>
-                    <h5><a href="http://github.com/vinca1926/project1">project1</a></h5>
-                </div>
-                <div class="col1_align">
-                    <img class="img-responsive project_pic" src="img/IMG_green.jpg" alt="image of green">
-                    <h4>Thinking still</h4>
-                    <h5><a href="http://github.com/vinca1926/project1">project1</a></h5>
+            <div class="col-xs-12 col-md-6 pict_col">
+                <!-- Nest a row inside the column -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="img-responsive project_pic" src="img/IMG_tree.jpg" alt="Project Pic">
+                        <h4>Fun projects</h4>
+                        <h5><a href="http://github.com/vinca1926/project1">project1</a></h5>
+                    </div>
+                    <div class="col-xs-12">
+                        <img class="img-responsive project_pic" src="img/IMG_green.jpg" alt="image of green">
+                        <h4>Thinking still</h4>
+                        <h5><a href="http://github.com/vinca1926/project1">project1</a></h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 pict_col col2_align">
+            <div class="col-xs-12 col-md-6 pict_col">
                 <img class="img-responsive portfolio_pic vertical-align:left" src="img/IMG_ocean.jpg" alt="image of ocean">
                 <h4>Portfolio </h4>
                 <h5><a href="http://github.com/vinca1926/project1">project1</a></h5>
             </div>
         </section>
-    </div>
 </body>
 
 </html>
