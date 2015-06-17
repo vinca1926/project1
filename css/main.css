@@ -17,7 +17,7 @@ hr {
     height: 2px;
     background-color: #32382c;
     color: #32382c;
-    margin: 15px ;
+    margin: 15px;
 }
 
 .a_pic {
@@ -73,27 +73,30 @@ h1 {
     font: 2em cursive helvetica, arial, sans-serif;
     color: #235d23;
     word-wrap: break-word;
-    margin: 5px ,auto,10px;
+    margin: 5px, auto, 10px;
 }
 
 h2 {
-    font: #235d23,1.5em helvetica, arial, sans-serif;
-    margin: 5px,auto,10px;
+    font:  1.5em helvetica, arial, sans-serif;
+    color: #235d23;
+    left-margin: 5px;
+    right-margin: 10px;
 }
 
 h3 {
-    font: 24px,#000,helvetica, arial, sans-serif;
+    font: 24px, helvetica, arial, sans-serif;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
-    margin: 30px,auto,30px;
+    left-margin: 30px;
+    right-margin: 30px;
     padding-top: 30px;
     border-top: 1px solid #CCC;
     clear: both;
 }
 
 h4 {
-    font: 1.25em,#000, helvetica, arial, sans-serif;
+    font: 1.25em, helvetica, arial, sans-serif;
     font-weight: 700;
     text-align: left;
     margin-top: 20px;
@@ -101,7 +104,8 @@ h4 {
 }
 
 h5 {
-    font: 1em,500,#000;
+    font: 1em;
     text-align: left;
     word-wrap: break-word;
+    font-weight: 500;
 }
