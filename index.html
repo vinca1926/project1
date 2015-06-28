@@ -11,13 +11,15 @@
 
 <body>
     <div class="container">
-        <header class="row">
-            <div class="col-xs-6">
-                <img class="header-logo img-responsive" src="img/logo.png" alt="logo picture">
-            </div>
-            <div class="col-xs-6">
-                <h1>Sudha Ramasamy</h1>
-                <h2>Web Developer</h2>
+        <header>
+            <div class="row">
+                <div class="col-xs-9">
+                    <h1 class="heading-font1">Sudha Ramasamy</h1>
+                    <h2 class="heading-font2">Web Developer</h2>
+                </div>
+                <div class="col-xs-3">
+                    <img class="header-logo img-responsive" src="img/logo.png" alt="logo picture">
+                </div>
             </div>
         </header>
         <div class="row">
@@ -25,35 +27,34 @@
                 <hr>
             </div>
         </div>
-        <figure class="row">
-            <div class="a-pic col-xs-12">
-                <img class="img-responsive" src="img/IMG_museum.jpg" alt="why picture?">
+        <figure class="row  main-pic-margin">
+            <div class="col-xs-12">
+                <img class="img-responsive main-pic" src="img/IMG_museum.jpg" alt="art picture">
             </div>
         </figure>
-        <div class="row">
-            <h3 class="sect-title col-xs-12">Featured Work</h3>
+        <div class="row sect-title">
+            <h3 class="heading-font3 col-xs-12">Featured Work</h3>
         </div>
-        <!-- I did not want all three of my images to be in a single row; I wanted two of them one below the other and the third one just by itself; -->
         <section class="row">
             <div class="project-pics">
-                <div class="col-xs-4 project-pic">
-                    <img class="img-responsive " src="img/IMG_tree.jpg" alt="image of river">
-                    <h4>Fun projects</h4>
-                    <h5><a href="http://github.com/vinca1926/project1">project1</a></h5>
-                </div>
-                <div class="col-xs-4 project-pic">
-                    <img class="img-responsive" src="img/IMG_tree.jpg" alt="image of green">
-                    <h4>Thinking still</h4>
-                    <h5><a href="http://github.com/vinca1926/project1">project2</a></h5>
-                </div>
-                <div class="col-xs-4 project-pic">
-                    <img class="img-responsive  " src="img/IMG_tree.jpg" alt="image of river">
-                    <h4>Show And Tell</h4>
-                    <h5><a href="http://github.com/vinca1926/project1">project3</a></h5>
-                </div>
+                <section class="col-xs-12 col-lg-2 col-md-6 project-pic-cont">
+                    <img class="img-responsive project-pic" src="img/IMG_river.jpg" alt="image of river">
+                    <h4 class="heading-font4">Fun projects</h4>
+                    <h5 class="heading-font5"><a href="http://github.com/vinca1926/project1">project1</a></h5>
+                </section>
+                <section class="col-xs-12 col-lg-2 col-md-6 project-pic-cont">
+                    <img class="img-responsive project-pic" src="img/IMG_tree.jpg" alt="image of tree">
+                    <h4 class="heading-font4">Thinking still</h4>
+                    <h5 class="heading-font5"><a href="http://github.com/vinca1926/project1">project2</a></h5>
+                </section>
+                <section class="col-xs-12 col-lg-2 col-md-6 project-pic-cont">
+                    <img class="img-responsive project-pic" src="img/IMG_ocean.jpg" alt="image of ocean">
+                    <h4 class="heading-font4">Show And Tell</h4>
+                    <h5 class="heading-font5"><a href="http://github.com/vinca1926/project1">project3</a></h5>
+                </section>
             </div>
         </section>
-        </div>
+    </div>
 </body>
 
 </html>

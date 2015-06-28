@@ -3,77 +3,239 @@
     }
 
     .header-logo {
-        margin: 10px 0 0 20px;
-        max-width: 70px;
-        max-height: 70px;
+        margin: 10px 0;
+        max-width: 80px;
+        max-height: 80px;
     }
 
     .header-title {
         text-align: right;
-        margin-right: 40px;
+        margin-right: 20px;
     }
 
     hr {
         height: 2px;
         background-color: #32382c;
         color: #32382c;
-        margin: 15px;
     }
 
-    .a-pic {
-        margin: 15px 10px 10px 5px;
-        overflow: hidden;
-        max-width: 500px;
-        overflow: hidden;
+    .main-pic-margin {
+        width: 100%;
+        max-width: 330px;
+        max-height: 180px;
+        padding-bottom: 10px;
+        padding-left: 15px;
     }
 
-    .proj-pics {
-        margin-bottom: 10px;
+    .main-pic {
+        overflow: hidden;
+        width: 100%;
+        max-width: 300px;
+        max-height: 180px;
+    }
+
+    .project-pics {
+        width: 100%;
+        max-width: 300px;
+      /**  max-height: 600px;*/
+        overflow: hidden;
+        padding-left: 15px;
     }
 
     .project-pic {
-        max-width: 400px;
-        height: 100%;
+        width: 100%;
+        max-width: 300px;
+        max-height: 150px;
+        overflow: hidden;
+    }
+
+    .project-pic-cont {
+        width: 100%;
+        max-width: 300px;
+        max-height: 200px;
         overflow: hidden;
     }
 
     .sect-title {
-        margin: 30px auto;
+        margin-top: 20px;
+        max-width: 80vw;
+        width: 100%;
     }
 
-    h1 {
-        font: 24px, helvetica, arial, sans-serif;
+    .heading-font1 {
+        font-size: 20px;
         color: #235d23;
         word-wrap: break-word;
-        margin: 5px auto 10px;
+        text-align: center;
+        margin: 10px auto;
     }
 
-    h2 {
-        font: 20px, helvetica, arial, sans-serif;
+    .heading-font2 {
+        font-size: 18px;
         color: #235d23;
-        margin: 5px auto 10px;
+        text-align: center;
+        margin: -10px;
     }
 
-    h3 {
-        font: 15px, helvetica, arial, sans-serif;
+    .heading-font3 {
+        font-size: 15px;
         font-weight: 700;
         text-align: left;
         text-transform: uppercase;
-        margin: 30px auto 30px;
-        padding-top: 30px;
+        margin: 10px auto 10px;
+        padding-top: 20px;
         border-top: 1px solid #ccc;
         clear: both;
     }
 
-    h4 {
-        font: 10px, helvetica, arial, sans-serif;
+    .heading-font4 {
+        font-size: 12px;
         font-weight: 700;
-        text-align: left;
-        margin-top: 20px;
+        text-align: center;
+        margin-top: 10px;
     }
 
-    h5 {
-        font: 1em;
-        text-align: left;
-        font-weight: 500;
+    .heading-font5 {
+        font-size: 12px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    @media screen and (min-width: 762px) and (max-width: 991px) {
+        .main-pic-margin {
+            max-width: 600px;
+            max-height: 400px;
+            padding-bottom: 10px;
+        }
+        .main-pic {
+            max-width: 600px;
+            max-height: 400px;
+            margin: 25px;
+            overflow: hidden;
+        }
+     .project-pics {
+            max-width: 700px;
+            max-height: 800px;
+            overflow: hidden;
+        }
+        .project-pic-cont {
+            max-width: 300px;
+            max-height: 380px;
+            overflow: hidden;
+        }
+        .project-pic {
+            max-width: 300px;
+            max-height: 300px;
+            overflow: hidden;
+        }
+
+        .heading-font1 {
+            font-size: 30px;
+            color: #235d23;
+            word-wrap: break-word;
+            text-align: center;
+            margin: 20px auto;
+        }
+        .heading-font2 {
+            font-size: 25px;
+            color: #235d23;
+            text-align: center;
+            margin: -10px;
+        }
+        .heading-font3 {
+            font-size: 22px;
+            font-weight: 700;
+            text-align: left;
+            text-transform: uppercase;
+            border-top: 1px solid #ccc;
+            clear: both;
+        }
+        .heading-font4 {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .heading-font5 {
+            font-size: 20px;
+            text-align: center;
+            font-weight: 700;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .main-pic-margin {
+            max-width: 800px;
+            max-height: 500px;
+            padding-bottom: 10px;
+        }
+        .main-pic {
+            max-width: 800px;
+            max-height: 500px;
+            margin: 25px;
+            overflow: hidden;
+        }
+        .project-pics {
+            max-width: 960px;
+            max-height: 380px;
+            overflow: hidden;
+        }
+        .project-pic-cont {
+            max-width: 300px;
+            max-height: 380px;
+            overflow: hidden;
+        }
+        .project-pic {
+            max-width: 300px;
+            max-height: 300px;
+            overflow: hidden;
+        }
+
+        .heading-font1 {
+            font: helvetica, arial, sans-serif;
+            font-size: 40px;
+            color: #235d23;
+            word-wrap: break-word;
+            text-align: center;
+            margin: 20px auto;
+        }
+        .heading-font2 {
+            font: helvetica, arial, sans-serif;
+            font-size: 30px;
+            color: #235d23;
+            text-align: center;
+            margin: -10px;
+        }
+        .heading-font3 {
+            font: helvetica, arial, sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+            text-align: left;
+            text-transform: uppercase;
+            border-top: 1px solid #ccc;
+            clear: both;
+        }
+        .heading-font4 {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .heading-font5 {
+            font-size: 20px;
+            text-align: center;
+            font-weight: 700;
+        }
+    }
+
+    @media (max-width: 360px) {
+        .header-logo {
+            display: none;
+        }
+    }
+
+    @media (min-width: 361px) {
+        .header-logo {
+            display: inline;
+        }
     }
