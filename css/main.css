@@ -37,7 +37,8 @@
     .project-pics {
         width: 100%;
         max-width: 300px;
-      /**  max-height: 600px;*/
+        /**  max-height: 600px;*/
+
         overflow: hidden;
         padding-left: 15px;
     }
@@ -113,7 +114,7 @@
             margin: 25px;
             overflow: hidden;
         }
-     .project-pics {
+        .project-pics {
             max-width: 700px;
             max-height: 800px;
             overflow: hidden;
@@ -123,12 +124,6 @@
             max-height: 380px;
             overflow: hidden;
         }
-        .project-pic {
-            max-width: 300px;
-            max-height: 300px;
-            overflow: hidden;
-        }
-
         .heading-font1 {
             font-size: 30px;
             color: #235d23;
@@ -185,12 +180,6 @@
             max-height: 380px;
             overflow: hidden;
         }
-        .project-pic {
-            max-width: 300px;
-            max-height: 300px;
-            overflow: hidden;
-        }
-
         .heading-font1 {
             font: helvetica, arial, sans-serif;
             font-size: 40px;
