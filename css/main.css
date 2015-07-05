@@ -23,8 +23,7 @@
         width: 100%;
         max-width: 330px;
         max-height: 180px;
-        padding-bottom: 10px;
-        padding-left: 15px;
+        padding: 0 0 10px 15px;
     }
 
     .main-pic {
@@ -37,8 +36,6 @@
     .project-pics {
         width: 100%;
         max-width: 300px;
-        /**  max-height: 600px;*/
-
         overflow: hidden;
         padding-left: 15px;
     }
@@ -63,7 +60,7 @@
         width: 100%;
     }
 
-    .heading-font1 {
+    h1 {
         font-size: 20px;
         color: #235d23;
         word-wrap: break-word;
@@ -71,14 +68,14 @@
         margin: 10px auto;
     }
 
-    .heading-font2 {
+    h2 {
         font-size: 18px;
         color: #235d23;
         text-align: center;
         margin: -10px;
     }
 
-    .heading-font3 {
+    h3 {
         font-size: 15px;
         font-weight: 700;
         text-align: left;
@@ -89,14 +86,14 @@
         clear: both;
     }
 
-    .heading-font4 {
+    h4 {
         font-size: 12px;
         font-weight: 700;
         text-align: center;
         margin-top: 10px;
     }
 
-    .heading-font5 {
+    h5 {
         font-size: 12px;
         text-align: center;
         font-weight: 700;
@@ -108,36 +105,42 @@
             max-height: 400px;
             padding-bottom: 10px;
         }
+
         .main-pic {
             max-width: 600px;
             max-height: 400px;
             margin: 25px;
             overflow: hidden;
         }
+
         .project-pics {
             max-width: 700px;
             max-height: 800px;
             overflow: hidden;
         }
+
         .project-pic-cont {
             max-width: 300px;
             max-height: 380px;
             overflow: hidden;
         }
-        .heading-font1 {
+
+        h1 {
             font-size: 30px;
             color: #235d23;
             word-wrap: break-word;
             text-align: center;
             margin: 20px auto;
         }
-        .heading-font2 {
+
+        h2 {
             font-size: 25px;
             color: #235d23;
             text-align: center;
             margin: -10px;
         }
-        .heading-font3 {
+
+        h3 {
             font-size: 22px;
             font-weight: 700;
             text-align: left;
@@ -145,13 +148,15 @@
             border-top: 1px solid #ccc;
             clear: both;
         }
-        .heading-font4 {
+
+        h4 {
             font-size: 20px;
             font-weight: 700;
             text-align: center;
             margin-top: 10px;
         }
-        .heading-font5 {
+
+        h5 {
             font-size: 20px;
             text-align: center;
             font-weight: 700;
@@ -164,23 +169,27 @@
             max-height: 500px;
             padding-bottom: 10px;
         }
+
         .main-pic {
             max-width: 800px;
             max-height: 500px;
             margin: 25px;
             overflow: hidden;
         }
+
         .project-pics {
             max-width: 960px;
             max-height: 380px;
             overflow: hidden;
         }
+
         .project-pic-cont {
             max-width: 300px;
             max-height: 380px;
             overflow: hidden;
         }
-        .heading-font1 {
+
+        h1 {
             font: helvetica, arial, sans-serif;
             font-size: 40px;
             color: #235d23;
@@ -188,14 +197,16 @@
             text-align: center;
             margin: 20px auto;
         }
-        .heading-font2 {
+
+        h2 {
             font: helvetica, arial, sans-serif;
             font-size: 30px;
             color: #235d23;
             text-align: center;
             margin: -10px;
         }
-        .heading-font3 {
+
+        h3 {
             font: helvetica, arial, sans-serif;
             font-size: 25px;
             font-weight: 700;
@@ -204,13 +215,15 @@
             border-top: 1px solid #ccc;
             clear: both;
         }
-        .heading-font4 {
+
+        h4 {
             font-size: 20px;
             font-weight: 700;
             text-align: center;
             margin-top: 10px;
         }
-        .heading-font5 {
+
+        h5 {
             font-size: 20px;
             text-align: center;
             font-weight: 700;
